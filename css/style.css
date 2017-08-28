@@ -205,6 +205,7 @@ margin:45px 0 0 0;
 list-style-type:none;
 display:inline-block;
 margin-right:25px;
+padding-left: 25px;
 }
 .about ul li a.fb{
 background: url(../images/icons.png) no-repeat 0px 0px;
@@ -263,7 +264,7 @@ background: url(../images/icons.png) no-repeat 0px -71px;
 /*--//about--*/
 /*--my skill--*/
 .my-skills{
-	background: #1abc9c;
+	background: #6f110f;
 	padding: 60px 0;
 }
 .my-skills h3{
@@ -275,6 +276,11 @@ letter-spacing: 18px;
 }
 .skill-grids{
 margin-top:50px;
+display: flex;
+justify-content: center;
+}
+.skill-grids i {
+  padding: 10px;
 }
 .skills-grid p{
 margin:20px 0 0 0;
@@ -311,28 +317,30 @@ letter-spacing: 18px;
 }
 
 .edu-grid p{
-margin:0px auto;
-color:#ffffff;
-font-size:18px;
-font-family: 'Lato', sans-serif;
-background:#52edc7;
-width: 36%;
-padding: 3px 0;
+  margin: 0px auto;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  background: #6f110f;
+  width: 36%;
+  padding: 3px 0;
+  border-radius: 5px 5px 0px 0px;
 }
 .edu-grid span{
-margin:0px auto;
-display:block;
-color:#ffffff;
-font-size:18px;
-font-family: 'Lato', sans-serif;
-background:#4ad7b4;
-width: 36%;
-padding: 3px 0;
+  margin: 0px auto;
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  background: #f34f29;
+  width: 36%;
+  padding: 3px 0;
+  border-radius: 0px 0px 5px 5px;
 }
 .edu-grid-master{
-
-background:#52edc7;
-padding: 15px 0;
+  background: rgba(243, 79, 41, 0.62);
+  padding: 15px 0;
+  border-radius: 5px 5px 0px 0px;
 }
 .edu-grid-master h3{
 font-family: 'Lato', sans-serif;
@@ -341,6 +349,7 @@ font-size:18px;
 color:#4a4a4a;
 font-weight:700;
 line-height:1.8em;
+padding: 10px;
 }
 .edu-grid-master h4{
 font-family: 'Lato', sans-serif;
@@ -351,7 +360,8 @@ font-weight: 600;
 }
 .edu-grid-info{
 background:#ffffff;
-padding: 25px 30px;
+padding: 25px 20px;
+border-radius: 0px 0px 5px 5px;
 }
 .edu-grid-info h5{
 font-family: 'Lato', sans-serif;
@@ -375,8 +385,8 @@ position:relative;
 }
 .edu-grid img{
 position:absolute;
-top: 25%;
-left: 40%;
+left: 155px;
+top: 95px;
 }
 /*--//education--*/
 /*--work--*/
@@ -1291,7 +1301,7 @@ background: url(../images/work-b.jpg) no-repeat 0px 0px;
 	min-height:93px;
 }
 .my-skill-back{
-background: url(../images/myskill-b.jpg) no-repeat 0px 0px;
+background: url(../images/myskill-b-1.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1299,7 +1309,7 @@ background: url(../images/myskill-b.jpg) no-repeat 0px 0px;
 	min-height:93px;
 }
 .about-back{
-background: url(../images/about-b.jpg) no-repeat 0px 0px;
+background: url(../images/about-b-1.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1985,6 +1995,7 @@ border:none;
 	.skill-grids {
 	  margin-top: 40px;
 	}
+
 	.skills-grid {
 	  width: 33.3% !important;
 	  float: left;
