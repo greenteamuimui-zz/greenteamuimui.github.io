@@ -407,7 +407,7 @@ top: 95px;
 .work-grid h3{
 margin:0;
 color:#ffffff;
-background:#52edc7;
+background:#f08b73;
 padding: 9px 0;
 font-size: 18px;
 font-weight: 600;
@@ -466,8 +466,8 @@ display:block;
 margin:0 auto;
 }
 .ser-imageb{
-background: url(../images/icons.png) no-repeat -390px -150px;
-width:190px;
+/*background: url(../images/icons.png) no-repeat -390px -150px;*/
+/*width:190px;*/
 height:190px;
 display:block;
 margin:0 auto;
@@ -1066,6 +1066,7 @@ margin:15px 0;
 padding: 7px 20px;
 margin:0;
 border-top:1px solid #dedede;
+align-items: center;
 }
 .blog-grid ul li{
 list-style-type:none;
@@ -1118,7 +1119,7 @@ position:relative;
 /*-- blog --*/
 /*-- contact --*/
 .contact{
-background:#52edc7;
+background:#f08b73;
 padding:60px 0 0 0;
 }
 .contact-info h3 {
@@ -2028,7 +2029,7 @@ border:none;
 	  width: 38%;
 	}
 	.edu-grid img {
-	  top: 25%;
+	  top: 90px;
 	  left: 39%;
 	}
 	.edu-grid-master h3 {
