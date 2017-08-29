@@ -362,6 +362,7 @@ font-weight: 600;
 background:#ffffff;
 padding: 25px 20px;
 border-radius: 0px 0px 5px 5px;
+min-height: 180px;
 }
 .edu-grid-info h5{
 font-family: 'Lato', sans-serif;
@@ -415,6 +416,7 @@ font-weight: 600;
 .work-grid-info {
 background:#ffffff;
 padding: 20px 18px;
+min-height: 510px;
 }
 .work-grid-info h4{
   font-family: 'Lato', sans-serif;
