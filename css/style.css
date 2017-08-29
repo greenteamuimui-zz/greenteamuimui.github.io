@@ -1276,7 +1276,7 @@ color:#ffffff;
 	min-height:188px;
 }
 .contact-back{
-	background: url(../images/con-t.jpg) no-repeat 0px 0px;
+	background: url(../images/con-t1.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2202,7 +2202,7 @@ border:none;
 	  font-size: 32px;
 	  }
 	.contact {
-	  padding: 45px 0 0 0;
+	  /*padding: 45px 0 0 0;*/
 	}
 	.contact-grids {
 	  margin-top: 45px;
@@ -2832,6 +2832,9 @@ border:none;
 	  float: left;
 	  width: 23%;
 	}
+  .contact-left ul li a{
+    font-size: 12px;
+  }
   .work-grid-info {
     min-height: 50px;
   }
@@ -3109,6 +3112,7 @@ border:none;
 	}
 	.work-grid h3 {
 	  font-size: 13px;
+    color:white;
 	}
 	.work-grid-info h4 {
 	  font-size: 13px;
@@ -3231,8 +3235,8 @@ border:none;
 	  width: 54% !important;
 	}
 	.contact-right form input[type="submit"] {
-	  width: 55%;
-	  background: url(../images/mess.png) no-repeat 14px 11px;
+	  width: 70%;
+	  background: url(../images/mess.png) no-repeat 12px 11px;
 	}
 	.footer-top {
 	  min-height: 55px;
@@ -3250,6 +3254,9 @@ border:none;
 @media(max-width:320px){
 .col-md-4.sample-page-right {
   padding: 0;
+}
+.contact-left ul li a{
+  font-size: 12px;
 }
 .work-grid-info {
   min-height: 50px;
