@@ -168,6 +168,7 @@ float:left;
 }
 .banner-right{
 float:right;
+margin-top: 20px;
 }
 .border {
   background: #52edc7;
@@ -342,6 +343,7 @@ letter-spacing: 18px;
   background: rgba(243, 79, 41, 0.62);
   padding: 15px 0;
   border-radius: 5px 5px 0px 0px;
+  min-height: 135px;
 }
 .edu-grid-master h3{
 font-family: 'Lato', sans-serif;
@@ -363,7 +365,7 @@ font-weight: 600;
 background:#ffffff;
 padding: 25px 20px;
 border-radius: 0px 0px 5px 5px;
-min-height: 190px;
+min-height: 200px;
 }
 .edu-grid-info h5{
 font-family: 'Lato', sans-serif;
@@ -1963,7 +1965,7 @@ border:none;
 	  margin: 15px 0 0px 0;
 	}
 	.banner-info {
-	  width: 78%;
+	  width: 95%;
 	  margin: 100px auto 0 auto;
 	}
 	.banner-right h1 {
@@ -2032,7 +2034,7 @@ border:none;
 	  width: 38%;
 	}
 	.edu-grid img {
-	  top: 90px;
+	  /*top: 90px;*/
 	  left: 39%;
 	}
 	.edu-grid-master h3 {
@@ -2078,6 +2080,8 @@ border:none;
 	  }
 	.ser-grids {
 	  margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
 	}
 	.ser-grid h3 {
 	  margin: 20px 0 11px 0;
