@@ -1212,7 +1212,8 @@ margin-right:0;
 .contact-right form input[type="submit"] {
 color:#2b2b2b;
 font-family: 'Lato', sans-serif;
-  background: url(../images/mess.png) no-repeat 81px 14px;
+  /*background: url(../images/mess.png) no-repeat 81px 14px;*/
+  background-color: #f08b73;
   width: 49%;
   border-radius: 4px;
   height: 52px;

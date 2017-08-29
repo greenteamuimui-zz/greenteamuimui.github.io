@@ -15,6 +15,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 	<!--//fonts-->
+    <!-- <script data-cfasync="false" type="text/javascript" -->
+    <!-- src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
+    <script data-cfasync="false" type="text/javascript"
+    src="./js/form-submission-handler.js"></script>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- for-mobile-apps -->
@@ -403,12 +407,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-7 contact-right">
 				<h3>Or Leave Me A Message</h3>
 				<div class="stripb"></div>
-				<form>
-					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+				<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwbClzDgOdGbSpyKfGZCTW8MsFfc7Hm_JDWINhkAHqBiDXv5-Y/exec">
+					<input name="name" type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input name="email" type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea name="message" type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
 					<input type="submit" value="SEND">
 				</form>
+        <div style="display:none;" id="thankyou_message">
+        <h2>Thanks for contacting me! I will get back to you soon!</h2>
+        </div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
