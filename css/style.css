@@ -168,7 +168,7 @@ float:left;
 }
 .banner-right{
 float:right;
-margin-top: 20px;
+/*margin-top: 20px;*/
 }
 .border {
   background: #52edc7;
@@ -2832,6 +2832,9 @@ border:none;
 	  float: left;
 	  width: 23%;
 	}
+  .logo img {
+    width: 100px;
+  }
 	.sam-head h3 {
 	  font-size: 28px;
 	}
@@ -2958,7 +2961,7 @@ border:none;
 		letter-spacing: 10px;
 	}
 	.banner-right h2 {
-	  font-size: 30px;
+	  font-size: 14px;
 	}
 	.banner-right h2 {
 	  margin: 10px 0 28px 0;
@@ -3246,6 +3249,9 @@ border:none;
   float: left;
   width: 35%;
 }
+.logo img {
+  width: 100px;
+}
 .top-header {
   margin-top: 18px;
 }
@@ -3319,7 +3325,7 @@ border:none;
   letter-spacing: 5px;
 }
 .banner-right h2 {
-  font-size: 18px;
+  font-size: 12px;
 }
 .banner-right a {
   font-size: 13px;
