@@ -278,6 +278,7 @@ letter-spacing: 18px;
 margin-top:50px;
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 }
 .skill-grids i {
   padding: 10px;
@@ -306,7 +307,7 @@ span.circles-text {
 /*--education--*/
 .education{
 padding:60px 0;
-background:#eeeeee;
+background:#f6f6f6;
 }
 .edu-info h3{
 margin:0;
@@ -322,9 +323,9 @@ letter-spacing: 18px;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   background: #6f110f;
-  width: 36%;
-  padding: 3px 0;
-  border-radius: 5px 5px 0px 0px;
+  /*width: 36%;*/
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
 }
 .edu-grid span{
   margin: 0px auto;
@@ -362,7 +363,7 @@ font-weight: 600;
 background:#ffffff;
 padding: 25px 20px;
 border-radius: 0px 0px 5px 5px;
-min-height: 180px;
+min-height: 190px;
 }
 .edu-grid-info h5{
 font-family: 'Lato', sans-serif;
@@ -386,10 +387,10 @@ position:relative;
 }
 .edu-grid img{
 position:absolute;
-left: 155px;
-top: 95px;
+left: 40%;
+top: 16%;
 }
-/*--//education--*/
+/*--//.strip-border p--*/
 /*--work--*/
 .work-info h3{
   margin: 0;
@@ -416,7 +417,7 @@ font-weight: 600;
 .work-grid-info {
 background:#ffffff;
 padding: 20px 18px;
-min-height: 510px;
+min-height: 580px;
 }
 .work-grid-info h4{
   font-family: 'Lato', sans-serif;
@@ -1304,7 +1305,7 @@ background: url(../images/work-b.jpg) no-repeat 0px 0px;
 	min-height:93px;
 }
 .my-skill-back{
-background: url(../images/myskill-b-1.jpg) no-repeat 0px 0px;
+background: url(../images/myskill-b.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1322,13 +1323,13 @@ background: url(../images/about-b-1.jpg) no-repeat 0px 0px;
 .strip-border{
 background:#eeeeee;
 }
-.strip-border p{
+/*.strip-border p{
 margin:0;
 width:15%;
 margin:0 auto;
 height:2px;
 background:#dcdcdf;
-}
+}*/
 /*-- single-page --*/
 .page-head {
   min-height: 140px;
@@ -2385,7 +2386,11 @@ border:none;
 	}
 	.edu-grid-info {
 	  padding: 12px 10px;
+    min-height: 153px;
 	}
+  .edu-grid-master {
+    min-height: 120px;
+  }
 	.edu-grid-info h5 {
 	  font-size: 14px;
 	}
@@ -2416,6 +2421,7 @@ border:none;
 	}
 	.work-grid-info {
 	  padding: 16px 10px;
+    min-height: 420px;
 	}
 	.services-back {
 	  min-height: 40px;
@@ -2437,40 +2443,40 @@ border:none;
 	  font-size: 14px;
 	}
 	.ser-imagea {
-	  background: url(../images/icons.png) no-repeat 0px -231px;
-	  width: 130px;
+	  /*background: url(../images/icons.png) no-repeat 0px -231px;*/
+	  /*width: 130px;*/
 	  height: 130px;
 	  display: block;
 	  margin: 0 auto;
 	  background-size: 319% !important;
 	}
 	.ser-imageb {
-	  background: url(../images/icons.png) no-repeat -266px -103px;
-	  width: 130px;
+	  /*background: url(../images/icons.png) no-repeat -266px -103px;*/
+	  /*width: 130px;*/
 	  height: 130px;
 	  display: block;
 	  margin: 0 auto;
 	  background-size: 319% !important;
 	}
 	.ser-imagec {
-	  background: url(../images/icons.png) no-repeat -133px -101px;
-	  width: 130px;
+	  /*background: url(../images/icons.png) no-repeat -133px -101px;*/
+	  /*width: 130px;*/
 	  height: 130px;
 	  display: block;
 	  margin: 0 auto;
 	  background-size: 319% !important;
 	}
 	.ser-imaged {
-	  background: url(../images/icons.png) no-repeat -1px -98px;
-	  width: 130px;
+	  /*background: url(../images/icons.png) no-repeat -1px -98px;*/
+	  /*width: 130px;*/
 	  height: 130px;
 	  display: block;
 	  margin: 0 auto;
 	  background-size: 319% !important;
 	}
 	.edu-grid img {
-	  top: 23%;
-	  left: 36%;
+	  top: 14%;
+	  /*left: 36%;*/
 	}
 	.gallery-section {
 	  padding: 68px 0 0px 0;
@@ -2736,7 +2742,9 @@ border:none;
 	}
 	.blog-text-info:nth-child(1), .blog-text-info:nth-child(2), .blog-text-info:nth-child(3), .blog-text-info:nth-child(4){
 	  margin-bottom: 30px;
+    width: 100%;
 	}
+
 	.blog-text-info {
 	  float: left;
 	  width: 48.2%;
@@ -3062,7 +3070,7 @@ border:none;
 	  margin-bottom: 30px;
 	}
 	.edu-grid img {
-	  top: 30%;
+	  /*top: 30%;*/
 	  left: 42%;
 	}
 	.work-info h3,.ser-info h3,.gallery-section h3,.process h3,.testimonials h3 ,.blog-info h3,.contact-info h3,.sam-head h3{
@@ -3335,7 +3343,7 @@ border:none;
 .skills-grid:nth-child(1), .skills-grid:nth-child(2), .skills-grid:nth-child(3), .skills-grid:nth-child(4), .skills-grid:nth-child(5)  {
   margin-bottom: 30px;
 }
-.my-skill-back {
+  .my-skill-back {
   min-height: 17px;
 }
 .edu-grid img {
