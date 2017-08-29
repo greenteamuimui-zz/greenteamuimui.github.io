@@ -2832,6 +2832,12 @@ border:none;
 	  float: left;
 	  width: 23%;
 	}
+  .work-grid-info {
+    min-height: 50px;
+  }
+  .edu-grid-info{
+    min-height: 50px;
+  }
   .logo img {
     width: 100px;
   }
@@ -3078,7 +3084,7 @@ border:none;
 	  margin-bottom: 30px;
 	}
 	.edu-grid img {
-	  /*top: 30%;*/
+	  top: 50px;
 	  left: 42%;
 	}
 	.work-info h3,.ser-info h3,.gallery-section h3,.process h3,.testimonials h3 ,.blog-info h3,.contact-info h3,.sam-head h3{
@@ -3245,6 +3251,12 @@ border:none;
 .col-md-4.sample-page-right {
   padding: 0;
 }
+.work-grid-info {
+  min-height: 50px;
+}
+.edu-grid-info{
+  min-height: 50px;
+}
 .logo {
   float: left;
   width: 35%;
@@ -3358,7 +3370,7 @@ border:none;
   min-height: 17px;
 }
 .edu-grid img {
-  top: 27%;
+  /*top: 27%;*/
   left: 38%;
 }
 .services-back {
