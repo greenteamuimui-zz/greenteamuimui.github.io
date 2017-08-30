@@ -40,14 +40,14 @@ button#showRightPush img {
 }
 
 /*modal class*/
-.modal-dialog{
+/*.modal-dialog{
   width: 70%;
   margin: auto;
-}
-.modal-dialog-mobile{
+}*/
+/*.modal-dialog-mobile{
   width: 30%;
   margin: auto;
-}
+}*/
 
 /*--header--*/
 .logo {

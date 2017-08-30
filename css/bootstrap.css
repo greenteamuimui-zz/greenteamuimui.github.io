@@ -5110,6 +5110,14 @@ button.close {
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+          width: 50%;
+}
+.modal.in .modal-dialog-mobile {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+          width: 20%;
+          margin: auto;
 }
 .modal-dialog {
   position: relative;
