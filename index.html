@@ -41,6 +41,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //for-mobile-apps -->
 	<!-- js -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- <link rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css"> -->
+    <!-- <script type="text/javascript"
+      src="http://code.jquery.com/jquery.min.js"></script> -->
+    <script
+      src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<!-- js -->
 	<!-- start-smooth-scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
@@ -249,12 +257,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="blog-grids">
 			<div class="col-md-4 blog-text-info">
 				<div class="blog-grid">
-					<a href="single.html"><img src="images/feasteasy.png" alt=""/></a>
+          <a href="#myModal1" class="p" data-toggle="modal"><img src="images/feasteasy.png" alt=""/></a>
 					<div class="blog-text">
-						<a href="single.html">Find the next dinner party now...</a>
+						<a href="https://feasteasy.herokuapp.com">Find the next dinner party now...</a>
 						<div class="stripa"></div>
 						<p>FeastEasy is a web application inspired by OpenTable, AirBnb and Couchsurfing built using React.js with Redux on the frontend and Ruby on Rails with a PostgreSQL database on the backend.</p>
 					</div>
+
+          <div id="myModal1" class="modal fade">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal"
+                     aria-hidden="true">&times;</button>
+                   <h4 class="modal-title">Feast Easy</h4>
+                 </div>
+                 <div class="modal-body">
+                   <img src="./images/reservation.gif" >
+                 </div>
+               </div>
+             </div>
+           </div>
 
 					<div class="blog-para">
 							<ul>
@@ -266,12 +289,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="col-md-4 blog-text-info">
 				<div class="blog-grid">
-					<a href="single.html"><img src="images/kitchenfox.png" alt=""/></a>
+					<a href="#myModal2" class="p" data-toggle="modal"><img src="images/kitchenfox.png" alt=""/></a>
 					<div class="blog-text">
-						<a href="single.html">Organize your kitchen with ease!</a>
+						<a href="https://youtu.be/aZmMJsnhpPo">Organize your kitchen with ease!</a>
 						<div class="stripa"></div>
 						<p>KithchenFox, a mobile application built using the MERN (Mongo-Express-React-Node) stack, helps you visualize your kitchen's inventory and recommend recipes based on what you have.</p>
 					</div>
+
+          <div id="myModal2" class="modal fade">
+             <div class="modal-dialog-mobile">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal"
+                     aria-hidden="true">&times;</button>
+                   <h4 class="modal-title">KitchenFox</h4>
+                 </div>
+                 <div class="modal-body">
+                   <img src="./images/kitchenfox.gif" >
+                 </div>
+               </div>
+             </div>
+           </div>
 
 					<div class="blog-para">
 							<ul>
@@ -283,12 +321,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="col-md-4 blog-text-info">
 				<div class="blog-grid">
-					<a href="single.html"><img src="images/lordeatsalot.png" alt=""/></a>
+					<a href="#myModal3" class="p" data-toggle="modal"><img src="images/lordeatsalot.png" alt=""/></a>
 					<div class="blog-text">
-						<a href="single.html">Feed Lord Eatsalot Donuts,NOW!</a>
+						<a href="https://greenteamuimui.github.io/Feed-Lord-Eatsalot/">Feed Lord Eatsalot Donuts,NOW!</a>
 						<div class="stripa"></div>
 						<p>This fun game was built on JavaScript, Keymaster.js for keyboard interaction and rendered on EaselJS. Conatiner Class was used to store and render donuts order and hit points(hearts).</p>
 					</div>
+
+          <div id="myModal3" class="modal fade">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal"
+                     aria-hidden="true">&times;</button>
+                   <h4 class="modal-title">Feed Lord Eatsalot</h4>
+                 </div>
+                 <div class="modal-body">
+                   <img src="./images/game.gif" >
+                 </div>
+               </div>
+             </div>
+           </div>
 
 					<div class="blog-para">
 							<ul>
@@ -375,22 +428,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-3 ser-grid">
 				<img class="ser-imageb" src="images/coffee.jpg" alt=" "/>
 				<h3>Network - Coffee</h3>
-				<p>Let's grab a cup of coffee! We can talk about Tech, Travel, Food, Chemistry, Music, anything!</p>
+				<p>Let's grab a cup of coffee! We can talk about tech, travel, food, chemistry, music, anything!</p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<img class="ser-imageb" src="images/job.png" alt=" "/>
 				<h3>Jobs - Opportunities</h3>
-				<p>Would love to learn more about the opportunities and talents you are looking for!</p>
+				<p>I would love to learn more about the opportunities and talents you are looking for!</p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<img class="ser-imageb" src="images/ideas.png" alt=" "/>
 				<h3>Ideas - Entrepreneurship</h3>
-				<p>Always looking to partner-up for new ventures in food, bio, health, e-commerce, etc!</p>
+				<p>I am always looking to partner-up for new ventures in food, bio, health, e-commerce, etc!</p>
 			</div>
 			<div class="col-md-3 ser-grid">
 				<img class="ser-imageb" src="images/food.png" alt=" "/>
 				<h3>Cook - Dine</h3>
-				<p>I can talk about food all day while eating food! Dining as a group is one of the greatest way to bond!</p>
+				<p>I can talk about food all day while eating food! Dining as a group is one of the greatest ways to bond!</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>

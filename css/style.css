@@ -39,6 +39,16 @@ button#showRightPush img {
 	padding-left: 8px;
 }
 
+/*modal class*/
+.modal-dialog{
+  width: 70%;
+  margin: auto;
+}
+.modal-dialog-mobile{
+  width: 30%;
+  margin: auto;
+}
+
 /*--header--*/
 .logo {
   float: left;
@@ -2832,6 +2842,11 @@ border:none;
 	  float: left;
 	  width: 23%;
 	}
+  .modal-dialog-mobile{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+  }
   .contact-left ul li a{
     font-size: 12px;
   }
@@ -3252,6 +3267,11 @@ border:none;
 	}
 }
 @media(max-width:320px){
+  .modal-dialog-mobile{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+  }
 .col-md-4.sample-page-right {
   padding: 0;
 }
