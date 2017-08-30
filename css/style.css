@@ -2842,7 +2842,12 @@ border:none;
 	  float: left;
 	  width: 23%;
 	}
-  .modal-dialog-mobile{
+  .modal.in .modal-dialog{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .modal.in .modal-dialog-mobile{
     width: 70%;
     margin: auto;
     margin-top: 10px;
@@ -3267,7 +3272,12 @@ border:none;
 	}
 }
 @media(max-width:320px){
-  .modal-dialog-mobile{
+  .modal.in .modal-dialog{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .modal.in .modal-dialog-mobile{
     width: 70%;
     margin: auto;
     margin-top: 10px;
